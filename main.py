@@ -221,6 +221,7 @@ def top10users(df):
     return fig, top10users
 
 #Sentiment Analysis
+nltk.download('vader_lexicon')
 sentiments = SentimentIntensityAnalyzer()
 def get_sentiment(text):
     scores = sentiments.polarity_scores(text)
