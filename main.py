@@ -169,6 +169,7 @@ def group_month_day(df):
         return fig,pivot
 
 #Most used words 
+nltk.download('stopwords')
 custom_stopwords = {'group', 'link', 'invite', 'joined',
                     'message', 'deleted', 'yeah', 'hai',
                     'yes', 'okay', 'ok', 'will', 'use',
