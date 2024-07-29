@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+wordcloud
+emoji
+nltk
+Pillow
+scikit-learn
